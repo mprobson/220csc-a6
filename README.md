@@ -51,6 +51,10 @@ This may invovle rebasing or merging your contributions, reach out
 if you need help with this.
 
 ## Extras
-0. Replicate boundaries
-1. Identity boundaries?
-2. 2D Convolution
+
+1. Utilize different boundary conditions
+  - Replicate the edge values
+  - Utilize identity values (e.g. 1 for multiply)
+2. Compare the performance with a CPU based convolution
+3. Implement the 2D convolution kernel
+4. Implement the tiled version of convoluion (10.2 bonus slides)
