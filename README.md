@@ -1,6 +1,6 @@
 # A6. Convolution
 
-Due Date: 11/20 at midnight
+Due Date: 11/25 at midnight (optional)
 
 ## Instructions
 
