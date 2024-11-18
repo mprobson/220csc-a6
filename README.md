@@ -25,6 +25,31 @@ Compare the performance of these two approaches.
 - [ ] Code
 - [ ] Reflection
 
+# Debugging
+
+If you encounter errors, I recommend two approahces:
+
+1. Adding print statements both inside your kernel function
+   as well as outside.
+   This can include: `printf("%s\n", cudaGetErrorString(cudaGetLastError()));`
+   to catch any cuda errors.
+
+2. You can check to make sure that you code is not accessing unallocated memory
+   by utilizing NVIDIA's memory sanitizer tool.
+   You can run it ok `keroppi` using the following line.
+   ```sh
+   compute-sanitizer --tool memcheck ./your_cuda_executable_not_source
+   ```
+
+# Updates
+
+To update this assignment as changes are made,
+a new PR will be generated.
+You can find the tab [here](../../pulls).
+On that page you can merge the pull request to get the update instructions.
+This may invovle rebasing or merging your contributions, reach out
+if you need help with this.
+
 ## Extras
 0. Replicate boundaries
 1. Identity boundaries?
