@@ -22,7 +22,9 @@ Compare the performance of these two approaches.
 
 ## Submission
 
-- [ ] Code
+- [ ] Convolution Code Versions
+  - [ ] Naive 1D w/ 0 boundaries
+  - [ ] Mask in constant cache memory
 - [ ] Reflection
 
 # Debugging
