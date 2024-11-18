@@ -12,7 +12,13 @@ Use 0's for boundary/missing values/elements.
 
 Compare the performance of these two approaches.
 
-## Reflection
+## Reflection Questions
+
+1. When does it make sense to use constant memory?
+2. What went well with this assignment?
+3. What was difficult?
+4. How would you approach differently?
+5. Anything else you want me to know?
 
 ## Submission
 
