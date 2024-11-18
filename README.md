@@ -24,7 +24,6 @@ Compare the performance of these two approaches.
 
 - [ ] Code
 - [ ] Reflection
-- [ ] Peer Review
 
 ## Extras
 0. Replicate boundaries
